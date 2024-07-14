@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  margin: 4em;
+
+  > *:not(:first-child) {
+    margin-top: 1em;
+  }
+}
+
+.retour-link {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #7289da;
+  color: #dcddde;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.retour-link:hover {
+  background-color: #677bc4;
+  cursor: pointer;
+}
